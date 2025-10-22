@@ -1,0 +1,92 @@
+services:
+  n8n:
+    image: n8nio/n8n
+    container_name: n8n
+    restart: always
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=admin
+      - N8N_BASIC_AUTH_PASSWORD=admin
+      - DB_TYPE=postgresdb
+      - DB_POSTGRESDB_HOST=postgres
+      - DB_POSTGRESDB_DATABASE=n8n
+      - DB_POSTGRESDB_USER=n8n
+      - DB_POSTGRESDB_PASSWORD=n8n
+    volumes:
+      - n8n_data:/home/node/.n8n
+    depends_on:
+      - postgres
+      - redis
+
+  postgres:
+    image: postgres:15-alpine
+    container_name: postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=n8n
+      - POSTGRES_PASSWORD=n8n
+      - POSTGRES_DB=n8n
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  firecrawl-postgres:
+    build: firecrawl/apps/nuq-postgres
+    container_name: firecrawl-postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    volumes:
+      - firecrawl_postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+
+  redis:
+    image: redis:alpine
+    container_name: redis
+    restart: always
+    ports:
+      - "6379:6379"
+
+  firecrawl-api:
+    image: firecrawl-api
+    container_name: firecrawl-api
+    restart: always
+    ports:
+      - "3002:3002"
+    environment:
+      - REDIS_URL=redis://redis:6379
+      - REDIS_RATE_LIMIT_URL=redis://redis:6379
+      - PORT=3002
+      - WORKER_PORT=3005
+      - EXTRACT_WORKER_PORT=3004
+      - USE_DB_AUTHENTICATION=false
+      - PLAYWRIGHT_MICROSERVICE_URL=http://firecrawl-playwright:3000/scrape
+      - NUQ_DATABASE_URL=postgres://postgres:postgres@firecrawl-postgres:5432/postgres
+      - HOST=0.0.0.0
+      - ENV=local
+    depends_on:
+      - redis
+      - firecrawl-postgres
+      - firecrawl-playwright
+
+
+
+  firecrawl-playwright:
+     image: firecrawl-playwright-service
+     container_name: firecrawl-playwright
+     restart: always
+     environment:
+       - PORT=3000
+     ports:
+       - "3000:3000"
+
+volumes:
+  n8n_data:
+  postgres_data:
+  firecrawl_postgres_data:

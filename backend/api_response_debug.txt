@@ -1,0 +1,568 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><body ng-app="topHeader" class="ng-scope showBand"><iframe src="javascript:void(0)" title="" role="presentation" style="width: 0px; height: 0px; border: 0px; display: none;"></iframe>
+	<link href="/include/css/bootstrap.css?v=1" type="text/css" rel="stylesheet"><link href="/include/css/style.css" type="text/css" rel="stylesheet"><link href="/include/css/font-awesome.css" type="text/css" rel="stylesheet">
+   
+    
+    
+    
+    <link href="/include/css/jquery-ui-Latest.min.css" rel="stylesheet">
+    
+    
+
+     
+    
+    
+
+
+    <form method="post" action="./showinterest.aspx?Group=&amp;Scripcode=&amp;segment=Equity&amp;status=" id="form1" class="ng-pristine ng-valid">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="u7A2Mwj7oAWyY8epmUT/D/j61VPVBwDQlvk3FtAwbP0Nq4WPjBesIbHAQDh5zIlwxNZozkaf6/BVtSiF6it6DC6aZb915kxMuy0Pk2KkGY+0yt779OcaSVG7i9dr6QPY2KLn71CeB3k3hZ9vDZbQAA==" autocomplete="off">
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="49173B21" autocomplete="off">
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" autocomplete="off">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="A5TiVeZAxlW3knGAr1j7zcFc0XzqRCFDNpBHLdT4NQtmY7nLKMEyP+OHA+FDV+B0u3gjIh9peQmr03ydWLgNeVbHpb/sYHgjx2HRgKg19ridDozuYmxrpQtTuOUExOz5QZFliEOI7daYHfLtDZEy2ZIRK2L251Pjk9qt/fsDc5jOlmkOxVB9XWAvQkjfiUqtETWhUDD1H3mAuFFSRkX9xJcvlLAFU+SNpmoDP7Erw3SsBO2GamPOqsj3feBOAtqfSy+719l2LkrpPzgbF7MlISQwtC8335sim6CmhSHtvQeUztO/B8ZRUACNxr6gqzbZp3rAD0qtEut6icV2wIfchVOLiftZ54HFXL45Owe0CawiRX+ZjCwHb5DWHzS9s3OqAq45oDxGotgGu4VsMtwHJsjBHu69vWahERzvL4kIbNuWbGSbPOKcks3FO2rqXejv8/WRhfaO8XmUeF02+cdfzwq0d4mI3p/or6Xr4ckqzmOqKNi/J5oBOpVZxW/OOtZmXqtVYvx+ro3bueC2gVnOK/b5SEfPWOZBswiHfTphUWtgm75KhYOaBP0fS2esy18gOFUYHyhY8N9jPuP8eH6LrZirQZ4pWh3uC/uWt5BFGslEAvgiIyNIjNml3mxHUkOs" autocomplete="off">
+</div>
+        
+        
+        
+
+
+
+<link href="https://bnotification.bseindia.com/" rel="preconnect">
+
+
+
+ 
+<div ng-controller="topController" class="ng-scope">
+    <!-- ngInclude: '/D90/Header/top_new.html' --><div id="topDiv" ng-include="'/D90/Header/top_new.html'" class="ng-scope">
+
+
+
+
+    <!--Mpulse Akamai -->
+    
+
+    <!-- End----Mpulse Akamai -->
+    <!--New Google Analytics 4 property and GTM tag Start-->
+    <!-- Google Tag Manager -->
+    
+    <!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+    
+    <!--New Google Analytics 4 property and GTM tag End-->
+
+    
+
+    
+
+
+    <!--Organization Schema-->
+
+    
+
+    <!--Organization Schema-->
+
+
+    
+
+    
+
+
+    
+    
+    <link rel="stylesheet" href="/include/css/style_high.css" class="ng-scope">
+    <link rel="stylesheet" href="/include/css/highcontra.css" class="ng-scope">
+
+
+
+
+
+
+    <!--<script src="/include/js/keynavigate.js" type="text/javascript"></script>-->
+    
+
+
+
+    <div class="container-fluid aplusarea ng-scope">
+        <div class="row">
+
+            <div id="SkipContents" class="col-lg-12 text-end skiparea">
+                <a href="https://api.bseindia.com/BseIndiaAPI/api/ListofScripData/w?Group=&amp;Scripcode=&amp;segment=Equity&amp;status=#skipcontent">Skip to main content</a>
+
+                <ul style="list-style: none; display: inline;">
+                    <li style="display:inline; padding-left:5px;">
+                        <a href="javascript:highContrast()" class="link_contrast1">High Contrast</a> | <a href="javascript:normalContrast()" class="link_contrast_reset">Reset</a>
+
+                    </li>
+                    <li style="display:inline; padding-left:5px;"><a href="https://api.bseindia.com/BseIndiaAPI/api/ListofScripData/w?Group=&amp;Scripcode=&amp;segment=Equity&amp;status=#Skip" title="Decrease font size" onclick="set_font_size('decrease')">-A</a></li>
+                    <li style="display: inline; padding-left: 5px;"><a href="https://api.bseindia.com/BseIndiaAPI/api/ListofScripData/w?Group=&amp;Scripcode=&amp;segment=Equity&amp;status=#Skip" title="Reset font size" onclick="set_font_size('amit')">A</a></li>
+                    <li style="display: inline; padding-left: 5px;"><a href="https://api.bseindia.com/BseIndiaAPI/api/ListofScripData/w?Group=&amp;Scripcode=&amp;segment=Equity&amp;status=#Skip" title="Increase font size" onclick="set_font_size('increase')">+A</a></li>
+                    <!--<li style="display: inline; padding-left: 5px;"><a href="javascript:void(0);" title="Reset font size" onclick="set_font_size(&#39;&#39;)">A</a></li>
+                    <li style="display: inline; padding-left: 5px;"><a href="javascript:void(0);" title="Increase font size" onclick="set_font_size(&#39;increase&#39;)">+A</a></li>-->
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid mobiletoparea ng-scope">
+        <div class="row">
+            <div class="leftone">
+                <div id="socialHolder">
+                    <div id="socialShare" class="btn-group share-group">
+                        <a class="shareicon" href="https://api.bseindia.com/BseIndiaAPI/api/ListofScripData/w?Group=&amp;Scripcode=&amp;segment=Equity&amp;status=#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-share-alt fa-inverse shareiconblue"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li>
+                                <a href="https://www.facebook.com/bseindia/" target="_blank" class="social-icon" title="Facebook"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://x.com/BSEIndia" target="_blank" class="social-icon" title="Twitter"><i class="fa fa-x-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/bseindia/" target="_blank" class="social-icon" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/+BSEworldBSEIndia" target="_blank" class="social-icon" title="Google+"><i class="fa fa-google-plus"></i></a>
+                            </li>
+                            <li><a href="https://api.bseindia.com/rss-feed.html" class="social-icon" title="RSS" target="_blank"><i class="fa fa-rss"></i></a></li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UC26AqprjUnguEQgHIXLSzRg" target="_blank" class="social-icon" title="Youtube"><i class="fa fa-youtube"></i></a>
+                            </li>
+
+                            <li>
+                                <a href="https://wa.me/918369998544?text=bse" target="_blank" class="social-icon" title="WhatsApp"><i class="fa fa-whatsapp"></i></a>
+                            </li>
+
+                            <li><a href="https://www.instagram.com/bseindia/?hl=en" target="_blank" class="social-icon" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="middleone"><a href="https://api.bseindia.com/index.html"><img src="https://api.bseindia.com/include/images/bselogo.png" class="bselogomob" alt="BSE EXPERIENCE THE NEW" title="BSEINDIA" border="0"></a></div>
+            <div class="rightone text-right">
+                <div class="dropdown implinkarea" style="line-height: 0 !important;">
+                    <button class="btn btn-toplang dropdown-toggle" style="color: #10486b; font-weight:bold;padding:6px 0px !important;" type="button" data-bs-toggle="dropdown" aria-expanded="false">Group Websites</button>
+                    <ul class="dropdown-menu" style="right: 0 !important; left: inherit !important;">
+                        <li><a href="https://api.bseindia.com/static/markets/mutualfunds/BSEStarMF.aspx" target="_blank">BSE STAR MF</a></li>
+                        <li><a href="https://www.bsesme.com/" target="_blank">BSE SME Platform</a></li>
+                        <li><a href="https://www.startupsbse.com/" target="_blank">BSE Startups</a></li>
+                        <!--  <li class="divider"></li> -->
+                        <li><a href="https://www.bsehitech.com/" target="_blank">BSE Hi-Tech</a></li>
+                        <li><a href="https://www.bseipf.com/" target="_blank">BSE IPF</a></li>
+                        <li><a href="https://www.bsetech.in/" target="_blank">BSE Technologies</a></li>
+                        <li><a href="https://www.bsebeam.com/" target="_blank">BSE BEAM </a></li>
+                        <li><a href="https://www.bsesocialstockexchange.com/" target="_blank">BSE SSE </a></li>
+
+                        <li><a href="https://www.bseasl.com/" target="_blank">BASL</a></li>
+
+                        <li><a href="https://www.cdslindia.com/index.html" target="_blank">CDSL</a></li>
+                        <li><a href="https://www.hpxindia.com/" target="_blank">HPX</a></li>
+                        <li><a href="https://www.icclindia.com/" target="_blank">ICCL</a></li>
+						<li><a href="https://www.bseindices.com/" target="_blank">BSE Index</a></li>
+                        <li><a href="https://www.indiainx.com/" target="_blank">India INX</a></li>
+                        <li><a href="https://www.indiaicc.com/" target="_blank">India ICC</a></li>
+
+                        <li><a href="https://api.bseindia.com/members/members_portal.aspx" target="_blank">Members Portal</a></li>
+                        <!--<li><a href="https://www.bseindia.com/rgess/" target="_blank">RGESS</a></li>-->
+                        <!--<li><a href="https://www.bseindia.com/bsecmieindices/" target="_blank">BSE CMIE Indices</a></li>-->
+                        <!--<li><a href="https://www.bsesammaan.com/" target="_blank">BSE Sammaan</a></li>-->
+                    </ul>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container-fluid sharearea ng-scope">
+        <div class="row">
+            <div class="col-md-3 sociolinkarea1024">
+                <div id="socialHolder">
+                    <div id="socialShare" class="btn-group share-group">
+                        <a data-toggle="dropdown" class="btn btn-info"><i class="fa fa-share-alt fa-inverse"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.facebook.com/bseindia/" target="_blank" class="social-icon" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://x.com/BSEIndia" target="_blank" class="social-icon" title="Twitter"><i class="fa fa-x-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/bseindia/" target="_blank" class="social-icon" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://plus.google.com/+BSEworldBSEIndia" target="_blank" class="social-icon" title="Instagram"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://api.bseindia.com/rss-feed.html" class="social-icon" title="RSS" target="_blank"><i class="fa fa-rss"></i></a></li>
+
+
+                            <li><a href="https://www.youtube.com/channel/UC26AqprjUnguEQgHIXLSzRg" target="_blank" class="social-icon" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+
+                            <li><a href="https://wa.me/918369998544?text=bse" target="_blank" class="social-icon" title="WhatsApp"><i class="fa fa-whatsapp"></i></a></li>
+
+                            <li><a href="https://www.instagram.com/bseindia/?hl=en" target="_blank" class="social-icon" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="desksocio">
+                    <ul>
+                        <li><a aria-label="Facebook" href="https://www.facebook.com/bseindia/" target="_blank" class="social-icon" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a aria-label="twitter" href="https://x.com/BSEIndia" target="_blank" class="social-icon" title="Twitter"><i class="fa fa-x-twitter"></i></a></li>
+                        <li><a aria-label="Linkedin" href="https://www.linkedin.com/company/bseindia/" target="_blank" class="social-icon" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+
+                        <li><a href="https://api.bseindia.com/rss-feed.html" class="social-icon" title="RSS" target="_blank"><i class="fa fa-rss"></i></a></li>
+                        <li><a aria-label="Youtube" href="https://www.youtube.com/channel/UC26AqprjUnguEQgHIXLSzRg" target="_blank" class="social-icon" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+
+
+                        <li><a aria-label="WhatsApp" href="https://wa.me/918369998544?text=bse" target="_blank" class="social-icon" title="WhatsApp"><i class="fa fa-whatsapp"></i></a></li>
+                        <li><a aria-label="Instagram" href="https://www.instagram.com/bseindia/?hl=en" target="_blank" class="social-icon" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="col-md-9 rightoparea1024">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="implinkarea">
+                                <a href="https://api.bseindia.com/markets/MarketInfo/NoticesCirculars.aspx?id=0&amp;txtscripcd=&amp;pagecont=&amp;subject=">Notices</a>  |
+                                <a href="https://api.bseindia.com/markets/MarketInfo/MediaRelease.aspx">Media Release</a>  |
+                                <a href="https://api.bseindia.com/static/markets/marketinfo/listholi.aspx">Trading Holidays</a>  |
+                                <a href="https://bseplus.bseindia.com/" target="_blank">BSEPlus</a>  |
+                                <a href="https://www.bsesme.com/" target="_blank">BSE SME</a>  |
+                                <a href="https://listing.bseindia.com/Payments/PaymentDetails.aspx" target="_blank">Payments to BSE</a>  |
+                                <a href="https://api.bseindia.com/static/about/contact_us.aspx">Contact us</a> |
+                                <a href="https://api.bseindia.com/static/about/careers.aspx" target="_self">Careers</a> |
+                                <a href="https://api.bseindia.com/BseIndiaAPI/api/ListofScripData/w?Group=&amp;Scripcode=&amp;segment=Equity&amp;status=#" target="_self" onclick="OpenPopupWindow()">FeedBack</a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 googlead">
+                            <div class="dropdown implinkarea">
+                                <button class="btn btn-toplang dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Select Language</button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="https://hindi.bseindia.com/" target="_blank">Hindi</a></li>
+                                    <li><a href="https://marathi.bseindia.com/" target="_blank">Marathi</a></li>
+                                    <li><a href="https://gujarati.bseindia.com/" target="_blank">Gujarati</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2 googlead">
+                            <div class="dropdown implinkarea">
+                                <button class="btn btn-toplang dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Group Websites</button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="https://api.bseindia.com/static/markets/mutualfunds/BSEStarMF.aspx" target="_blank">BSE STAR MF</a></li>
+                                    <li><a href="https://www.bsesme.com/" target="_blank">BSE SME Platform</a></li>
+                                    <li><a href="https://www.startupsbse.com/" target="_blank">BSE Startups</a></li>
+                                    <!--  <li class="divider"></li> -->
+                                    <li><a href="https://www.bsehitech.com/" target="_blank">BSE Hi-Tech</a></li>
+                                    <li><a href="https://www.bseipf.com/" target="_blank">BSE IPF</a></li>
+                                    <li><a href="https://www.bsetech.in/" target="_blank">BSE Technologies</a></li>
+                                    <li><a href="https://www.bsebeam.com/" target="_blank">BSE BEAM </a></li>
+                                    <li><a href="https://www.bsesocialstockexchange.com/" target="_blank">BSE SSE </a></li>
+
+                                    <li><a href="https://www.bseasl.com/" target="_blank">BASL</a></li>
+                                    <li><a href="https://www.cdslindia.com/index.html" target="_blank">CDSL</a></li>
+                                    <li><a href="https://www.hpxindia.com/" target="_blank">HPX</a></li>
+                                    <li><a href="https://www.icclindia.com/" target="_blank">ICCL</a></li>
+									<li><a href="https://www.bseindices.com/" target="_blank">BSE Index</a></li>
+                                    <li><a href="https://www.indiainx.com/" target="_blank">India INX</a></li>
+                                    <li><a href="https://www.indiaicc.com/" target="_blank">India ICC</a></li>
+
+                                    <li><a href="https://api.bseindia.com/members/members_portal.aspx" target="_blank">Members Portal</a></li>
+                                    <!--<li><a href="https://www.bseindia.com/rgess/" target="_blank">RGESS</a></li>-->
+                                    <!--<li><a href="https://www.bseindia.com/bsecmieindices/" target="_blank">BSE CMIE Indices</a></li>-->
+                                    <!--<li><a href="https://www.bsesammaan.com/" target="_blank">BSE Sammaan</a></li>-->
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid ng-scope" ng-controller="SensexDataController" ng-init="SensexTable()">
+
+        <div class="row">
+            <div class="col-lg-2 logoarea text-center"><a href="https://api.bseindia.com/index.html"><img src="https://api.bseindia.com/include/images/bselogo.png" class="bselogodesk" alt="BSEINDIA" title="BSEINDIA" border="0"></a></div>
+
+            <div class="col-lg-6 logoaddarea topsensexarea">
+
+
+
+                <div class="newsensexvaluearea">
+
+                    <table cellpadding="5" align="center" cellspacing="10" style="margin:0 auto;" border="0">
+                        <tbody><tr>
+                            <td> <div class="senseximgold"><a href="https://api.bseindia.com/sensex/code/16/"><img src="https://api.bseindia.com/include/images/spbse.png" class="img-responsive" alt="BSE SENSEX" title="BSE SENSEX" border="0"></a> </div></td>
+                            <td width="1px" bgcolor="#aeaeae"></td>
+                            <td>
+                                <div ng-show="loader.sloading" class="ng-hide"><img src="https://api.bseindia.com/include/images/loader.gif"></div>
+                                <div class="sensextextold" ng-show="loader.sloaded">
+                                    <div class="newsensexvalue ng-binding" id="tdsp">82,500.82</div>
+                                    <div class="newsensextext2">
+                                        <!-- ngIf: HeaderData[0].chg < 0 -->
+                                        <!-- ngIf: HeaderData[0].chg >= 0 --><div id="tdsp01" class="greentext ng-binding ng-scope" ng-if="HeaderData[0].chg >= 0">+328.72 +0.40%</div><!-- end ngIf: HeaderData[0].chg >= 0 -->
+                                        <div class="topdatearea"><span id="tdsp02" class="ng-binding">10 Oct 25 | 16:00 </span> | <!-- ngIf: HeaderData[0].F == '0' --><!-- ngIf: HeaderData[0].F == '1' --><!-- ngIf: HeaderData[0].F == '2' --><strong id="s01" ng-if="HeaderData[0].F == '2'" class="redtext ng-scope">Close</strong><!-- end ngIf: HeaderData[0].F == '2' --></div>
+
+                                    </div>
+                                </div>
+                            </td>
+                            <td width="1px" bgcolor="#aeaeae" ng-show="HeaderData[0].iclsflag == 1 || indiceflag==1" class="ng-hide"></td>
+                            <td ng-show="HeaderData[0].iclsflag == 1 || indiceflag==1" class="ng-hide">
+                                <div ng-show="loader.sloading" class="ng-hide"><img src="https://api.bseindia.com/include/images/loader.gif"></div>
+                                <div class="sensextextold" ng-show="loader.sloaded">
+                                    <div class="newsensexvalue"><span id="tdindisp" class="ng-binding">-</span> <font style="font-size:10px; font-weight:normal;">(Indicative Close)</font></div>
+                                    <div class="newsensextext2">
+                                        <!-- ngIf: HeaderData[0].iclsChg < 0 -->
+                                        <!-- ngIf: HeaderData[0].iclsChg >= 0 --><div id="tdindisp01" class="greentext ng-binding ng-scope" ng-if="HeaderData[0].iclsChg >= 0"> %</div><!-- end ngIf: HeaderData[0].iclsChg >= 0 -->
+                                        <div id="tdindisp02" class="topdatearea ng-binding">10 Oct 25 | 16:00 </div>
+                                    </div>
+                                </div>
+                            </td>
+
+                            <!--<td width="1px" bgcolor="#aeaeae"></td>
+                            <td>
+                                <div class="sensextextold">
+                                    <div class="newsensexvalue">63,521.42 <font style="font-size:10px; font-weight:normal;">(Indicative Close)</font></div>
+                                    <div class="newsensextext2">
+                                        <div class="greentext">+899.18 +1.48%</div>
+
+                                        <div class="topdatearea">01 Jun 23 | 15:10 </div>
+                                    </div>
+                                </div>
+                            </td>-->
+
+                        </tr>
+                    </tbody></table>
+                </div>
+
+
+
+
+
+            </div>
+
+
+            <div class="col-lg-4 text-left getquotearea ng-scope" ng-controller="topController">
+
+                <div class="getquotetext">Get Quote</div>
+                <div>
+                    <section class="main">
+                        
+                            <div id="SearchQuotediv" class="searchtexttop">
+                                <input id="getquotesearch" type="text" name="q" placeholder="Enter Security Name / Code / ID / ISIN" ng-keyup="GetQuoteTable($event)" maxlength="50">
+
+                                <ul id="ulSearchQuote" class="results ng-binding" ng-bind-html="SearchQuote"></ul>
+                            </div>
+                            <div class="dropdowntop">
+                                <label class="sr-only" for="ddltype">quote options</label>
+                                <select id="ddltype" name="" class="getquoteoption ng-pristine ng-untouched ng-valid ng-not-empty" ng-change="ClearList()" ng-model="selectedseg">
+                                    <option value="EQ" selected="selected">Equity T+1</option>
+                                    <option value="EQT">Equity T+0</option>
+                                    <option value="DR">Derivatives</option>
+                                    <option value="MF">MF/ETFs</option>
+                                    <option value="DB">Debt/Others</option>
+                                    <option value="CR">Currency Derivatives</option>
+                                    <option value="CO">Commodity Derivatives</option>
+                                    <option value="EGR">Electronic Gold Receipts</option>
+                                    <option value="HS">Hybrid Security</option>
+                                    <option value="MB">Municipal Bonds</option>
+                                    <option value="SSE">SSE</option>
+                                </select>
+                            </div>
+                        
+                    </section>
+
+                </div>
+
+
+            </div>
+        </div>
+        <!-- ngIf: HeaderData[0].msg!='' -->
+
+    </div>
+
+
+
+
+
+    
+
+
+
+
+
+
+  </div>
+
+        <!-- ngInclude: '/D90/Header/members_menu.html' --><div id="Divhomemenu" ng-include="'/D90/Header/members_menu.html'" class="ng-scope">
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+</div>
+
+</div></form>
+
+        <div style="margin-top: 10px;">
+
+            <div id="fontSize" style="font-size: 100%;"> <div id="divmain" class="body slide">
+                
+
+
+
+
+    
+
+    
+
+
+
+
+    <br>
+
+    <div align="center" class="googlead largetable">
+<!-- /35735749/About_Second -->
+<div id="div-gpt-ad-1554962426265-0">
+
+</div>
+</div>
+	
+
+<div class="whitebox">
+        <div class="container-fluid marketstartarea">
+          
+          
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class=" blueheading" style="text-align: left">
+                        <div class="home_widget">
+                            <span class="page_info_title_s2">Show Interest</span> 
+
+                        </div>
+                    </div>
+                </div>
+                
+               
+            </div>  </div>
+        </div>
+        
+        
+    <div class="whitebox">
+            <div class="container-fluid marketstartarea">
+
+   <div class="col-lg-12">
+
+<div class="row">
+            <div class="col-lg-1"><b>Name</b></div>
+	                
+            <div class="col-lg-2"><input name="ctl00$ContentPlaceHolder1$txtname" type="text" id="ContentPlaceHolder1_txtname" class="form-control" role="TextBox" autocomplete="off">
+   </div>
+            <div class="col-lg-1"><b>Email</b></div>
+            <div class="col-lg-2"><input name="ctl00$ContentPlaceHolder1$txtemail" type="text" id="ContentPlaceHolder1_txtemail" class="form-control" role="TextBox" autocomplete="off"></div>
+            <div class="col-lg-1"><b>Contact No.</b></div>
+            <div class="col-lg-2"><input name="ctl00$ContentPlaceHolder1$txtcontact" type="text" maxlength="10" id="ContentPlaceHolder1_txtcontact" class="form-control" role="TextBox" autocomplete="off"></div>
+            <div class="col-lg-3"></div>
+</div><br>
+<div class="row">
+            <div class="col-lg-1"><b>Category Name</b></div>
+            <div class="col-lg-2">
+				<select name="ctl00$ContentPlaceHolder1$ddlcat" id="ContentPlaceHolder1_ddlcat" role="DropDownList" class="form-control">
+	<option value="ALL">ALL</option>
+	<option value="Circulars Listed Companies">Circulars Listed Companies</option>
+	<option value="Company related">Company related</option>
+	<option value="Compliance">Compliance</option>
+	<option value="Corporate Actions">Corporate Actions</option>
+	<option value="Index">Index</option>
+	<option value="Others">Others</option>
+	<option value="Settlement/RMS">Settlement/RMS</option>
+	<option value="Tenders">Tenders</option>
+	<option value="Trading">Trading</option>
+
+</select>
+				</div>
+            <div class="col-lg-1"><b>Sub Category</b></div>
+            <div class="col-lg-2">
+				<select name="ctl00$ContentPlaceHolder1$ddl_subcat" id="ContentPlaceHolder1_ddl_subcat" role="DropDownList" class="form-control">
+	<option value="ALL">ALL</option>
+	<option value="Bad Delivery Cell">Bad Delivery Cell</option>
+	<option value="BSE Training Institute">BSE Training Institute</option>
+	<option value="BTI">BTI</option>
+	<option value="Business Development">Business Development</option>
+	<option value="Business Operations">Business Operations</option>
+	<option value="Clearing &amp; Settlement">Clearing &amp; Settlement</option>
+	<option value="Corporate Communications">Corporate Communications</option>
+	<option value="Trading">Trading</option>
+
+</select></div>
+				
+            <div class="col-lg-1"><b>Your comments</b></div>
+            <div class="col-lg-2"><input name="ctl00$ContentPlaceHolder1$txtcomment" type="text" id="ContentPlaceHolder1_txtcomment" class="form-control" role="TextBox" autocomplete="off"></div>
+            <div class="col-lg-3"></div>
+</div><br>
+
+<div class="row">
+
+<div class="col-lg-12" align="center"><input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="Submit" id="ContentPlaceHolder1_btnSubmit" role="Button" class="btn btn-default">
+              
+
+
+</div>	   
+	   
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+<br><br>
+
+<div align="center" class="googlead largetable">
+<!-- /35735749/About_Second -->
+<div id="div-gpt-ad-1554962426265-0">
+
+</div>
+</div>
+
+
+
+
+            </div></div>
+        </div>
+        <br>
+        <br>
+        <div class="middlefoot"></div>
+        
+        
+
+        
+       
+        
+        
+    
+
+
+
+</div></body></html>

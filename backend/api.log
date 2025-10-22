@@ -1,0 +1,28 @@
+INFO:     Started server process [75437]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54751 - "GET /stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54752 - "GET /stocks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54753 - "GET /announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54751 - "GET /stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54753 - "GET /announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54759 - "GET /stocks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54759 - "GET /announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55701 - "OPTIONS /stocks/544522 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55701 - "PATCH /stocks/544522 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55701 - "GET /stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55703 - "GET /stocks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55703 - "GET /announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56517 - "OPTIONS /stocks/540874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56517 - "PATCH /stocks/540874 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56517 - "GET /stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56519 - "GET /stocks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56519 - "OPTIONS /stocks/544281 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56517 - "PATCH /stocks/544281 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56517 - "GET /stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56519 - "GET /stocks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59942 - "GET /announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60105 - "GET /announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60105 - "GET /announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60105 - "GET /announcements HTTP/1.1" 200 OK
