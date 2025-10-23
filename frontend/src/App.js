@@ -85,7 +85,8 @@ function App() {
 
   const filteredStocks = allStocks.filter(stock =>
     (stock.stock_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-     stock.stock_code.toLowerCase().includes(searchTerm.toLowerCase())) &&
+     stock.stock_code.toLowerCase().includes(searchTerm.toLowerCase()) ||
+     stock.sector.toLowerCase().includes(searchTerm.toLowerCase())) &&
     !watchlist.some(w => w.stock_code === stock.stock_code)
   );
 
@@ -267,7 +268,7 @@ function App() {
 
             <input
               type="text"
-              placeholder="Search by name or code..."
+              placeholder="Search by ticker symbol, stock code, company name, or sector..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               autoFocus
