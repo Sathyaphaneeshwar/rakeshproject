@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import StocksOverview from './StocksOverview';
 
 const API_URL = 'http://localhost:8000';
 
 function App() {
+  const [currentView, setCurrentView] = useState('dashboard');
   const [watchlist, setWatchlist] = useState([]);
   const [allStocks, setAllStocks] = useState([]);
   const [announcements, setAnnouncements] = useState([]);
@@ -94,11 +96,30 @@ function App() {
     <div style={{ minHeight: '100vh', background: '#f3f4f6' }}>
       {/* Header */}
       <header className="header">
-        <h1>📊 Stock Watchlist Dashboard</h1>
-        <p>AI-Powered Announcement Analysis</p>
+        <div>
+          <h1>📊 Stock Watchlist Dashboard</h1>
+          <p>AI-Powered Announcement Analysis</p>
+        </div>
+        <div className="nav-buttons">
+          <button
+            onClick={() => setCurrentView('dashboard')}
+            className={`nav-button ${currentView === 'dashboard' ? 'active' : ''}`}
+          >
+            Dashboard
+          </button>
+          <button
+            onClick={() => setCurrentView('overview')}
+            className={`nav-button ${currentView === 'overview' ? 'active' : ''}`}
+          >
+            Stocks Overview
+          </button>
+        </div>
       </header>
 
-      <div className="container">
+      {currentView === 'overview' ? (
+        <StocksOverview />
+      ) : (
+        <div className="container">
         {/* Watchlist Section */}
         <div style={{ marginBottom: '2rem' }}>
           <h2 style={{ marginBottom: '1rem' }}>My Watchlist</h2>
@@ -307,6 +328,9 @@ function App() {
             </div>
           </div>
         </div>
+      )}
+
+      </div>
       )}
     </div>
   );
