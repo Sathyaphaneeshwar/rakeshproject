@@ -42,6 +42,14 @@ class Announcement(BaseModel):
     llm_summary: Optional[str]
     processed: bool
 
+class StockOverview(BaseModel):
+    stock_code: str
+    stock_name: str
+    sector: Optional[str]
+    has_transcript: bool
+    transcript_count: int
+    last_transcript_date: Optional[str]
+
 # API Endpoints
 
 @app.get("/")
@@ -229,19 +237,53 @@ async def get_watchlist():
     """Get all stocks in watchlist (active stocks)"""
     conn = get_db()
     cursor = conn.cursor()
-    
+
     cursor.execute("""
-        SELECT stock_code, stock_name, sector 
-        FROM stocks 
-        WHERE is_active = TRUE 
+        SELECT stock_code, stock_name, sector
+        FROM stocks
+        WHERE is_active = TRUE
         ORDER BY stock_name
     """)
-    
+
     stocks = cursor.fetchall()
     cursor.close()
     conn.close()
-    
+
     return stocks
+
+@app.get("/stocks/overview", response_model=List[StockOverview])
+async def get_stocks_overview():
+    """Get overview of all stocks with transcript summary information"""
+    conn = get_db()
+    cursor = conn.cursor()
+
+    query = """
+        SELECT
+            s.stock_code,
+            s.stock_name,
+            s.sector,
+            COUNT(CASE WHEN a.transcript_diarized IS NOT NULL OR a.transcript_link IS NOT NULL THEN 1 END) as transcript_count,
+            CASE WHEN COUNT(CASE WHEN a.transcript_diarized IS NOT NULL OR a.transcript_link IS NOT NULL THEN 1 END) > 0
+                 THEN TRUE
+                 ELSE FALSE
+            END as has_transcript,
+            MAX(CASE WHEN a.transcript_diarized IS NOT NULL OR a.transcript_link IS NOT NULL
+                     THEN a.announcement_date
+                     ELSE NULL
+                END) as last_transcript_date
+        FROM stocks s
+        LEFT JOIN announcements a ON s.stock_code = a.stock_code
+        GROUP BY s.stock_code, s.stock_name, s.sector
+        ORDER BY s.stock_name
+    """
+
+    cursor.execute(query)
+    stocks_overview = cursor.fetchall()
+
+    cursor.close()
+    conn.close()
+
+    return stocks_overview
 
 if __name__ == "__main__":
     import uvicorn
